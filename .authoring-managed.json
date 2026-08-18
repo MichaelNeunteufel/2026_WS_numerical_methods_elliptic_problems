@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "files": [
+    "content/exercises/README.md",
+    "content/index.ipynb",
+    "content/notebooks/00_ngsolve_test.ipynb",
+    "content/notebooks/README.md",
+    "content/script/README.md"
+  ]
+}
