@@ -33,12 +33,22 @@ jobs:
       - name: Validate public content
         run: python scripts/validate_public.py .
 
+      - name: Mark landing notebook read-only
+        run: chmod a-w content/index.ipynb
+
       - name: Build JupyterLite
         run: >-
           jupyter lite build
           --pyodide https://ngsolve.org/files/ngsolve_pyodide_0.27.6.tar.bz2
           --contents content
           --output-dir dist
+
+      - name: Verify landing notebook is read-only
+        run: >-
+          python -c 'import json, pathlib;
+          data = json.loads(pathlib.Path("dist/api/contents/all.json").read_text());
+          item = next(entry for entry in data["content"] if entry["name"] == "index.ipynb");
+          assert item["writable"] is False, item'
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -59,4 +69,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
