@@ -2,6 +2,9 @@
   "version": 1,
   "files": [
     "content/exercises/README.md",
+    "content/exercises/ex01/CppExtensionTest.ipynb",
+    "content/exercises/ex01/mymodule.cpp",
+    "content/exercises/ex01/ueb1.pdf",
     "content/getting-started/README.md",
     "content/getting-started/ngsolve-installation.pdf",
     "content/index.ipynb",
