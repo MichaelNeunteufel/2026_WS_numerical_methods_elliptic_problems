@@ -15,6 +15,10 @@ Run code cells in order. Before working through the examples, use the [NGSolve a
 - [Incompressible flow](VO_2026_10_07/05_incompressible_flow.ipynb)
 - [Magneto-quasistatics](VO_2026_10_07/06_magneto_quasistatics.ipynb)
 
+## Lecture 3 — October 14, 2026
+
+[Laplace problem discretization with linear finite elements](VO_2026_10_14/01_simple_laplace.ipynb):
+
 The examples accompany the [lecture notes](../script/README.md). Related tasks are listed under [Exercises](../exercises/README.md).
 
 [Course overview](../index.ipynb)
