@@ -13,4 +13,15 @@ The sheet also includes a voluntary local NGSolve installation task. Its support
 
 Download both files into the same directory. Follow the [installation guide (PDF)](../getting-started/ngsolve-installation.pdf), activate your local environment, and start JupyterLab from that directory.
 
+## Exercise sheet 2
+
+[Exercise sheet 2 (PDF)](ex02/ueb2.pdf)
+
+The numerical exercises use these starter notebooks:
+
+- [Poisson problem on a Pacman domain](ex02/pacman_domain.ipynb)
+- [Heat conduction with a material inclusion](ex02/heat_conduction.ipynb)
+
+Work through the Pacman notebook first as the heat-conduction notebook builds on its explanations.
+
 [Course overview](../index.ipynb) · [Lecture notes](../script/README.md) · [Lecture notebooks](../notebooks/README.md)
