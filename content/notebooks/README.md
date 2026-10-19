@@ -17,7 +17,13 @@ Run code cells in order. Before working through the examples, use the [NGSolve a
 
 ## Lecture 3 — October 14, 2026
 
-[Laplace problem discretization with linear finite elements](VO_2026_10_14/01_simple_laplace.ipynb):
+[Laplace problem discretization with linear finite elements](VO_2026_10_14/01_simple_laplace.ipynb)
+
+## Lecture 4 — October 20, 2026
+
+[Friedrichs, Poincaré, and trace constants](VO_2026_10_21/01_sobolev_constants.ipynb)
+
+Experiments with shrinking Dirichlet boundary parts, volume and boundary measurements, a single fixed finite element vertex, and the trace constant on thin rectangles.
 
 The examples accompany the [lecture notes](../script/README.md). Related tasks are listed under [Exercises](../exercises/README.md).
 
