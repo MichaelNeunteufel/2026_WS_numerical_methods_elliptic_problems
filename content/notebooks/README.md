@@ -19,7 +19,7 @@ Run code cells in order. Before working through the examples, use the [NGSolve a
 
 [Laplace problem discretization with linear finite elements](VO_2026_10_14/01_simple_laplace.ipynb)
 
-## Lecture 4 — October 20, 2026
+## Lecture 4 — October 21, 2026
 
 [Friedrichs, Poincaré, and trace constants](VO_2026_10_21/01_sobolev_constants.ipynb)
 
