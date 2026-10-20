@@ -336,3 +336,6 @@ TSWLatexianTemp*
 .ipynb_checkpoints/
 __pycache__/
 dist/
+
+.DS_Store
+*.o
