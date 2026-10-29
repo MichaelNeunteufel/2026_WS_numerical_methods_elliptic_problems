@@ -25,6 +25,12 @@ Run code cells in order. Before working through the examples, use the [NGSolve a
 
 Experiments with shrinking Dirichlet boundary parts, volume and boundary measurements, a single fixed finite element vertex, and the trace constant on thin rectangles.
 
+## October 29, 2026 — Boundary data
+
+[Boundary data: lifting, mixed conditions, and the Neumann kernel](VO_2026_10_29/01_boundary_data.ipynb)
+
+Examples from Chapter 4: nonhomogeneous Dirichlet data and liftings, combined Dirichlet–Neumann–Robin conditions, and compatibility and mean constraints for pure Neumann problems. The convection examples compare a coarse Galerkin breakdown with a divergence-free field and show how strong convection creates an outflow boundary layer.
+
 The examples accompany the [lecture notes](../script/README.md). Related tasks are listed under [Exercises](../exercises/README.md).
 
 [Course overview](../index.ipynb)
