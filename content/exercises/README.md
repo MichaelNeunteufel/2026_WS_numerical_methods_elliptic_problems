@@ -24,4 +24,13 @@ The numerical exercises use these starter notebooks:
 
 Work through the Pacman notebook first as the heat-conduction notebook builds on its explanations.
 
+## Exercise sheet 2
+
+[Exercise sheet 3 (PDF)](ex03/ueb3.pdf)
+
+The numerical exercise use this starter notebook:
+
+- [Poisson problem on a Pacman domain](ex03/exterior_electrostatics.ipynb)
+
+
 [Course overview](../index.ipynb) · [Lecture notes](../script/README.md) · [Lecture notebooks](../notebooks/README.md)
