@@ -25,6 +25,10 @@
     "content/notebooks/VO_2026_10_14/01_simple_laplace.ipynb",
     "content/notebooks/VO_2026_10_21/01_sobolev_constants.ipynb",
     "content/notebooks/VO_2026_10_29/01_boundary_data.ipynb",
+    "content/notebooks/VO_2026_11_05/01_interpolation_and_galerkin.ipynb",
+    "content/notebooks/VO_2026_11_05/02_shape_regularity.ipynb",
+    "content/notebooks/VO_2026_11_05/03_corner_singularity.ipynb",
+    "content/notebooks/VO_2026_11_05/04_inverse_estimates.ipynb",
     "content/script/README.md",
     "content/script/numerical_methods.pdf"
   ]
