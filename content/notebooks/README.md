@@ -31,6 +31,15 @@ Experiments with shrinking Dirichlet boundary parts, volume and boundary measure
 
 Examples from Chapter 4: nonhomogeneous Dirichlet data and liftings, combined Dirichlet–Neumann–Robin conditions, and compatibility and mean constraints for pure Neumann problems. The convection examples compare a coarse Galerkin breakdown with a divergence-free field and show how strong convection creates an outflow boundary layer.
 
+## November 5, 2026 — Finite element approximation and error estimates
+
+- [Interpolation and Galerkin approximation](VO_2026_11_05/01_interpolation_and_galerkin.ipynb): nodal interpolation, best approximation in energy, and first- and second-order error decay.
+- [Why does shape regularity matter?](VO_2026_11_05/02_shape_regularity.ipynb): interpolation on a flattening triangle and the different geometric assumptions in the energy and L2 estimates.
+- [Convergence near a reentrant corner](VO_2026_11_05/03_corner_singularity.ipynb): an exact singular solution on an L-shaped domain and the roles of primal and dual regularity.
+- [Inverse estimates and maximum-norm errors](VO_2026_11_05/04_inverse_estimates.ipynb): inverse norm ratios for a shrinking nodal hat and logarithmic maximum-error growth on two uniform triangulations.
+
+Each notebook is self-contained and can be run in a fresh kernel.
+
 The examples accompany the [lecture notes](../script/README.md). Related tasks are listed under [Exercises](../exercises/README.md).
 
 [Course overview](../index.ipynb)
