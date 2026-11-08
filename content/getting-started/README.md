@@ -14,6 +14,8 @@ Download your work regularly. Browser files are stored in the current browser pr
 
 The [NGSolve installation guide (PDF)](ngsolve-installation.pdf) explains pip installation, building from source, and checks for Python, WebGUI, and the C++ compiler.
 
-A local installation is optional. The voluntary [C++ extension test](../exercises/ex01/CppExtensionTest.ipynb) requires a local NGSolve installation and a compatible C++ compiler. Native C++ compilation is unavailable in JupyterLite.
+A local installation is optional for the browser examples. It is required for the [Chapter 6 implementation notebooks](../notebooks/ch06_implementation/README.md) and the voluntary [C++ extension test](../exercises/ex01/CppExtensionTest.ipynb). Both compile native C++ code and require NGSolve/Netgen with development headers and a compatible C++ compiler. Native C++ compilation is unavailable in JupyterLite.
+
+For Chapter 6, download the complete `ch06_implementation/` directory with `teaching_utils.py` and `cpp/`, and start JupyterLab from that directory. Each notebook should use its own fresh Python kernel.
 
 [Course overview](../index.ipynb)

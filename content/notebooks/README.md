@@ -1,6 +1,6 @@
 # Lecture notebooks
 
-Interactive examples for *Numerical Methods for Elliptic Problems*. Use the [course JupyterLite site](https://michaelneunteufel.github.io/2026_WS_numerical_methods_elliptic_problems/lab/index.html?path=index.ipynb) or a local JupyterLab installation, see [Getting started](../getting-started/README.md).
+Interactive examples for *Numerical Methods for Elliptic Problems*. Most examples run on the [course JupyterLite site](https://michaelneunteufel.github.io/2026_WS_numerical_methods_elliptic_problems/lab/index.html?path=index.ipynb) or in a local JupyterLab installation. The [Chapter 6 implementation notebooks](ch06_implementation/README.md) require a local installation with a C++ compiler. See [Getting started](../getting-started/README.md).
 
 Run code cells in order. Before working through the examples, use the [NGSolve and WebGUI check](00_ngsolve_test.ipynb) to verify that a triangular mesh is displayed.
 
@@ -39,6 +39,16 @@ Examples from Chapter 4: nonhomogeneous Dirichlet data and liftings, combined Di
 - [Inverse estimates and maximum-norm errors](VO_2026_11_05/04_inverse_estimates.ipynb): inverse norm ratios for a shrinking nodal hat and logarithmic maximum-error growth on two uniform triangulations.
 
 Each notebook is self-contained and can be run in a fresh kernel.
+
+## Chapter 6 — Finite element implementation
+
+The [companion materials](ch06_implementation/README.md) connect reference basis functions, finite element spaces and assembly:
+
+- [The linear triangle space](ch06_implementation/00_linear_triangle_space.ipynb): explicit P1 shapes and gradients, vertex numbering, the manuscript's element matrices, scatter-add and Dirichlet data.
+- [From nodal elements to hierarchical high order](ch06_implementation/01_nodal_elements.ipynb): nodal and hierarchical coordinates, integrated Legendre functions, Dubiner bubbles, WebGUI views, shared-edge continuity and degree enrichment.
+- [Assembly](ch06_implementation/02_assembly.ipynb): reference-to-physical gradients, local quadrature, assembly comparisons and mixed boundary data.
+
+These notebooks compile a C++ extension. Download the complete `ch06_implementation/` directory, including `teaching_utils.py` and `cpp/`, and run each notebook from that directory in a fresh local Python kernel. NGSolve/Netgen with development headers and a compatible C++ compiler are required.
 
 The examples accompany the [lecture notes](../script/README.md). Related tasks are listed under [Exercises](../exercises/README.md).
 
