@@ -1,6 +1,6 @@
 # Lecture notes
 
-[Numerical Methods for Elliptic Problems (PDF)](numerical_methods.pdf)
+[Numerical Methods for Elliptic Equations (PDF)](numerical_methods.pdf)
 
 Lecture notes for the winter semester 2026/27 at Johannes Kepler University Linz, by Michael Neunteufel, based on Herbert Egger's 2022 lecture notes.
 

@@ -1,6 +1,6 @@
 # Getting started
 
-These materials accompany *Numerical Methods for Elliptic Problems*, winter semester 2026/27 at Johannes Kepler University Linz.
+These materials accompany *Numerical Methods for Elliptic Equations*, winter semester 2026/27 at Johannes Kepler University Linz.
 
 ## Work in the browser
 
