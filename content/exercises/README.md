@@ -1,6 +1,6 @@
 # Exercises
 
-Exercise sheets and supporting files for *Numerical Methods for Elliptic Problems*, winter semester 2026/27.
+Exercise sheets and supporting files for *Numerical Methods for Elliptic Equations*, winter semester 2026/27.
 
 ## Exercise sheet 1
 

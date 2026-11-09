@@ -1,6 +1,7 @@
 {
   "version": 1,
   "files": [
+    "README.md",
     "content/exercises/README.md",
     "content/exercises/ex01/CppExtensionTest.ipynb",
     "content/exercises/ex01/mymodule.cpp",

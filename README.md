@@ -1,6 +1,6 @@
-# Numerical Methods for Elliptic Problems
+# Numerical Methods for Elliptic Equations
 
-Public course material for the lecture *Numerical Methods for Elliptic Problems*, winter term 2026 at Johannes Kepler University Linz (JKU Linz).
+Public course material for the lecture *Numerical Methods for Elliptic Equations*, winter term 2026 at Johannes Kepler University Linz (JKU Linz).
 
 ## Use the notebooks
 

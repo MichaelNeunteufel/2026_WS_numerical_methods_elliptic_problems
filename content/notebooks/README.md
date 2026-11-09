@@ -1,6 +1,6 @@
 # Lecture notebooks
 
-Interactive examples for *Numerical Methods for Elliptic Problems*. Most examples run on the [course JupyterLite site](https://michaelneunteufel.github.io/2026_WS_numerical_methods_elliptic_problems/lab/index.html?path=index.ipynb) or in a local JupyterLab installation. The [Chapter 6 implementation notebooks](ch06_implementation/README.md) require a local installation with a C++ compiler. See [Getting started](../getting-started/README.md).
+Interactive examples for *Numerical Methods for Elliptic Equations*. Most examples run on the [course JupyterLite site](https://michaelneunteufel.github.io/2026_WS_numerical_methods_elliptic_problems/lab/index.html?path=index.ipynb) or in a local JupyterLab installation. The [Chapter 6 implementation notebooks](ch06_implementation/README.md) require a local installation with a C++ compiler. See [Getting started](../getting-started/README.md).
 
 Run code cells in order. Before working through the examples, use the [NGSolve and WebGUI check](00_ngsolve_test.ipynb) to verify that a triangular mesh is displayed.
 
