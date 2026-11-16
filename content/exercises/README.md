@@ -32,4 +32,18 @@ The numerical exercise uses this starter notebook:
 
 - [Exterior electrostatics](ex03/exterior_electrostatics.ipynb)
 
+## Exercise sheet 4
+
+[Exercise sheet 4 (PDF)](ex04/ueb4.pdf)
+
+The programming exercises use these starter notebooks and C++ files:
+
+- [Anisotropic diffusion](ex04/tensor_diffusion.ipynb)
+- [Cubic triangles and edge orientation](ex04/cubic_triangles.ipynb)
+- [C++ starter files](ex04/implementation_ueb4/)
+
+These exercises require a local NGSolve/Netgen installation with development headers and a compatible C++ compiler. Follow [Getting started](../getting-started/README.md).
+
+Keep the repository layout when downloading: both notebooks use [teaching_utils.py](../notebooks/ch06_implementation/teaching_utils.py) from the [Chapter 6 material](../notebooks/ch06_implementation/README.md). Download or clone the repository, keep all files in `ex04/implementation_ueb4/` together, and start JupyterLab from `content/exercises/ex04/`. Run each notebook in its own fresh kernel and restart the kernel after editing C++ headers.
+
 [Course overview](../index.ipynb) · [Lecture notes](../script/README.md) · [Lecture notebooks](../notebooks/README.md)
