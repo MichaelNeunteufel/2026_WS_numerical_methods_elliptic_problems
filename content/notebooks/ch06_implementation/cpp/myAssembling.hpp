@@ -52,7 +52,7 @@ namespace teaching
         const ElementTransformation &trafo = mesh->GetTrafo(ei, heap);
         // dnums maps each local basis index to a global matrix/vector index.
         fes->GetDofNrs(ei, dnums);
-        // A square local matrix with one row/column per element DOF, allocated from the heap.
+        // A square local/element matrix with one row/column per element DOF, allocated from the heap.
         FlatMatrix<> local(fe.GetNDof(), heap);
         // Respect the integration category (VOL/BND) and any region/element restrictions.
         for (auto integrator : integrators)
