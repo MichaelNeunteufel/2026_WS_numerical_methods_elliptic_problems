@@ -46,8 +46,9 @@ namespace teaching
     void Update() override
     {
       FESpace::Update();
-      for (auto active : definedon[VOL])
-        if (!active)
+      const auto &active_domains = DefinedOn(VOL);
+      for (auto domain : Range(active_domains.Size()))
+        if (!active_domains[domain])
           throw Exception("P1TriangleFESpace is defined on the full mesh.");
       for (auto ei : ma->Elements(VOL))
         if (ma->GetElement(ei).GetType() != ET_TRIG)

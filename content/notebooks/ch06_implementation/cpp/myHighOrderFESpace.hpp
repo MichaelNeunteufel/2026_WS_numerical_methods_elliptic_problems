@@ -64,8 +64,9 @@ namespace teaching
     void Update() override
     {
       FESpace::Update();
-      for (auto active : definedon[VOL])
-        if (!active)
+      const auto &active_domains = DefinedOn(VOL);
+      for (auto domain : Range(active_domains.Size()))
+        if (!active_domains[domain])
           throw Exception("The teaching space is defined on the full mesh.");
 
       // Global blocks: one DOF per vertex, p-1 per edge, then the cell-interior DOFs.
