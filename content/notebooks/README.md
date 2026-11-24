@@ -50,6 +50,11 @@ The [companion materials](ch06_implementation/README.md) connect reference basis
 
 These notebooks compile a C++ extension. Download the complete `ch06_implementation/` directory, including `teaching_utils.py` and `cpp/`, and run each notebook from that directory in a fresh local Python kernel. NGSolve/Netgen with development headers and a compatible C++ compiler are required.
 
+## November 25, 2026 — Linear solvers for finite element systems
+
+- [Direct solvers and static condensation](VO_2026_11_25/01_direct_solvers.ipynb) explores conditioning, the effect of ordering on Cholesky fill-in, and the elimination and recovery of cell-interior coefficients.
+- [Richardson iteration and conjugate gradients](VO_2026_11_25/02_iterative_solvers.ipynb) compares Richardson, CG and Jacobi-preconditioned CG, then shows how damped Jacobi affects smooth and oscillatory error modes.
+
 The examples accompany the [lecture notes](../script/README.md). Related tasks are listed under [Exercises](../exercises/README.md).
 
 [Course overview](../index.ipynb)

@@ -12,6 +12,7 @@ The current notes include an introduction and the following chapters:
 4. Weak solutions to elliptic boundary value problems: Dirichlet liftings, mixed boundary conditions, convection and reaction, and the pure Neumann problem.
 5. The finite element method: nodal interpolation, shape regularity, energy error estimates, Aubin–Nitsche duality, reduced regularity, inverse inequalities, and maximum-norm error estimates.
 6. Implementation of finite element methods: reference-to-physical mappings, nodal and hierarchical bases, quadrature, local element matrices, and global assembly.
+7. Linear solvers for finite element systems: conditioning, sparse Cholesky factorization, static condensation, conjugate gradients, and multigrid preconditioning.
 
 Use the [lecture notebooks](../notebooks/README.md) for accompanying examples and the [exercise sheets](../exercises/README.md) to practise the material. Instructions for running NGSolve are under [Getting started](../getting-started/README.md).
 
