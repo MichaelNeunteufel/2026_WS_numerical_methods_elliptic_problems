@@ -8,6 +8,8 @@ Use your local NGSolve installation for the course notebooks and programming exe
 
 The [NGSolve installation guide (PDF)](ngsolve-installation.pdf) explains installation and checks for Python, WebGUI, and the C++ compiler. Run the [C++ extension test](../exercises/ex01/CppExtensionTest.ipynb) to check your compiler setup.
 
+**Windows.** Visual Studio 2022 Community, Professional, Enterprise, and the standalone Build Tools all support the course exercises with the *Desktop development with C++* workload installed. Start JupyterLab from your installation’s *x64 Native Tools Command Prompt* and run the extension test with the course Python kernel.
+
 For Chapter 6, download the complete `ch06_implementation/` directory with `teaching_utils.py` and `cpp/`, and start JupyterLab from that directory. Each notebook should use its own fresh Python kernel.
 
 For Exercise sheet 4, keep `content/exercises/ex04/` and `content/notebooks/ch06_implementation/` in their repository locations, including the C++ starter directory and `teaching_utils.py`. Start JupyterLab from `content/exercises/ex04/` and restart the kernel after changing C++ headers.
