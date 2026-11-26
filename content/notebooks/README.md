@@ -55,6 +55,13 @@ These notebooks compile a C++ extension. Download the complete `ch06_implementat
 - [Direct solvers and static condensation](VO_2026_11_25/01_direct_solvers.ipynb) explores conditioning, the effect of ordering on Cholesky fill-in, and the elimination and recovery of cell-interior coefficients.
 - [Richardson iteration and conjugate gradients](VO_2026_11_25/02_iterative_solvers.ipynb) compares Richardson, CG and Jacobi-preconditioned CG, then shows how damped Jacobi affects smooth and oscillatory error modes.
 
+## November 26, 2026 — Linear solvers for finite element systems
+
+- [From Jacobi smoothing to a multigrid V-cycle](VO_2026_11_26/00_two_grid_and_multigrid.ipynb) shows how smoothing and coarse correction affect two error modes, then compares additive two-grid and multigrid preconditioning.
+- [Point and patch preconditioners for Poisson's equation](VO_2026_11_26/01_patch_preconditioners.ipynb) compares point and vertex-patch corrections applied additively or successively and tracks iteration counts under mesh refinement.
+- [A coarse space with one basis function](VO_2026_11_26/02_constant_mode.ipynb) tracks how correcting the constant mode affects the smallest eigenvalues and PCG iteration counts as the reaction coefficient decreases.
+- [Choosing blocks for higher-order finite elements](VO_2026_11_26/03_high_order_blocks.ipynb) compares mesh-entity blocks and vertex patches as the polynomial degree increases, then tests multigrid and BDDC after static condensation.
+
 The examples accompany the [lecture notes](../script/README.md). Related tasks are listed under [Exercises](../exercises/README.md).
 
 [Course overview](../index.ipynb)
